@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Huế-Thành Phố của hoài niệm</title>
+    <meta name="description"
+        content="Huế – bản tình ca của lịch sử, thiên nhiên và con người. Địa điểm, ẩm thực, và trải nghiệm văn hoá đáng nhớ nhất." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Cormorant+Garamond:wght@300;400;600&family=DM+Sans:wght@300;400;500&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- MOBILE MENU -->
+    <div class="mobile-menu" id="mobileMenu">
+        <button class="mobile-close" onclick="closeMobileMenu()"><i class="fas fa-times"></i></button>
+        <a href="#about" onclick="closeMobileMenu()">Giới Thiệu</a>
+        <a href="#places" onclick="closeMobileMenu()">Địa Điểm</a>
+        <a href="#food" onclick="closeMobileMenu()">Ẩm Thực</a>
+        <a href="#romantic" onclick="closeMobileMenu()">Văn Hoá</a>
+        <a href="#video" onclick="closeMobileMenu()">Video</a>
+        <a href="#news" onclick="closeMobileMenu()">Tin Tức</a>
+        <a href="#testimonials" onclick="closeMobileMenu()">Đánh Giá</a>
+        <a href="#bottom" onclick="closeMobileMenu()">Liên Hệ</a>
+    </div>
+
+    <!-- NAVBAR -->
+    <nav id="navbar">
+        <div style="display:flex;align-items:center;justify-content:space-between;">
+            <a href="#hero" class="nav-brand">TP <span> Huế</span></a>
+            <ul class="nav-links">
+                <li><a href="#about">Giới thiệu</a></li>
+                <li><a href="#places">Địa điểm</a></li>
+                <li><a href="#food">Ẩm thực</a></li>
+                <li><a href="#romantic">Văn Hoá</a></li>
+                <li><a href="#video">Video</a></li>
+                <li><a href="#news">Tin tức</a></li>
+                <li><a href="#testimonials">Đánh giá</a></li>
+                <li><a href="#bottom">Liên hệ</a></li>
+            </ul>
+            <button class="hamburger" onclick="openMobileMenu()"><i class="fas fa-bars"></i></button>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <section id="hero">
+        <div class="hero-bg">
+  <div class="bg bg-1"></div>
+  <div class="bg bg-2"></div>
+  <div class="bg bg-3"></div>
+</div>
+        <div class="hero-bg"></div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <div class="hero-tag">0-500m so với mực nước biển</div>
+            <h1 class="hero-title"> <em> Huế</em></h1>
+            <p class="hero-sub">Thành Phố Mộng Mơ · Yên Bình · Tình Yêu</p>
+            <a href="#about" class="btn-explore">Khám phá ngay</a>
+        </div>
+        <div class="hero-scroll">
+            <div class="hero-scroll-line"></div>
+        </div>
+    </section>
+
+    
+    <section id="about">
+        <div class="container">
+            <div class="row align-items-center g-5">
+                <div class="col-lg-6" data-aos="fade-right">
+                    <img src="img/anh2.png" alt="H cảnh sắc" class="about-img img-fluid" />
+                </div>
+                <div class="col-lg-6" data-aos="fade-left" data-aos-delay="150">
+                    <p class="section-label">Về Huế</p>
+                    <h2 class="section-title">Nơi mộng mơ <br />và yên bình hội tụ</h2>
+                    <div class="section-divider"></div>
+                    <p class="section-desc mb-4">Huế –một thành phố yên bình, mang vẻ đẹp nhẹ nhàng và trầm lắng đặc trưng. Không gian nơi đây khá thơ mộng, thiên nhiên hài hòa, tạo cảm giác dễ chịu và thư giãn. Nhịp sống chậm rãi, không quá ồn ào nên rất phù hợp với những ai thích sự tĩnh lặng</p>
+                    <p class="section-desc">Bên cạnh đó, Huế còn nổi tiếng với ẩm thực phong phú, các món ăn đậm đà hương vị và được trình bày đẹp mắt. Từ món chính đến các món ăn vặt đều mang nét riêng, vừa dân dã vừa tinh tế.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <div class="stat-num">0-500<small style="font-size:1rem">m</small></div>
+                            <div class="stat-label">Độ cao</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-num">25°C</div>
+                            <div class="stat-label">Nhiệt độ TB</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-num">2M+</div>
+                            <div class="stat-label">Du khách/năm</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-num">50+</div>
+                            <div class="stat-label">Điểm tham quan</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="places">
+        <div class="container">
+            <div class="text-center mb-5" data-aos="fade-up">
+                <p class="section-label">Khám phá</p>
+                <h2 class="section-title">Địa điểm nổi tiếng</h2>
+                <div class="section-divider mx-auto"></div>
+                <p class="section-desc">Những cảnh đẹp không thể bỏ lỡ khi đến Huế</p>
+            </div>
+            <div class="gallery-grid" data-aos="fade-up" data-aos-delay="100">
+                <div class="gallery-item">
+                    <img src="img/kthue.png" alt="Hồ Xuân Hương" />
+                    <div class="gallery-overlay">
+                        <div class="gallery-caption">
+                            <h4>Đại Nội Huế</h4>
+                            <p>Nét đẹp cổ kính khiến bao du khách say đắm</p>
+                            <a href="t1.html">Next </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="img/minhmang.png" alt="Thác Datanla" />
+                    <div class="gallery-overlay">
+                        <div class="gallery-caption">
+                            <h4>Lăng Minh Mạng</h4>
+                            <p>Một trong những công trình kiến trúc lăng tẩm tiêu biểu và uy nghi nhất của triều Nguyễn tại Huế</p>
+                             <a href="t2.html">Next </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="img/huyenkhong.png" alt="Thung lũng Tình Yêu" />
+                    <div class="gallery-overlay">
+                        <div class="gallery-caption">
+                            <h4>Chùa Huyền Không</h4>
+                            <p>Địa điểm tăng công đức số 1 Huế</p>
+                             <a href="t4.html">Next </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="img/langco.png" alt="Vườn hoa " />
+                    <div class="gallery-overlay">
+                        <div class="gallery-caption">
+                            <h4>Vịnh Lăng Cô</h4>
+                            <p>Được công nhận là một trong những vịnh đẹp nhất thế giới vào năm 2009</p>
+                             <a href="t3.html">Next </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="img/vongcanh.png" alt="Đồi thông" />
+                    <div class="gallery-overlay">
+                        <div class="gallery-caption">
+                            <h4>Đồi Vọng Cảnh</h4>
+                            <p>Nơi đây sở hữu vẻ đẹp hoàn hảo, giữa mây trời, sông nước, núi non và cây cối</p>
+                             <a href="t5.html">Next </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="img/tamgiang.png" alt="Langbiang" />
+                    <div class="gallery-overlay">
+                        <div class="gallery-caption">
+                            <h4>Phá Tam Giang</h4>
+                            <p>Hệ đầm phá nước lợ lớn nhất Đông Nam Á</p>
+                             <a href="t6.html">Next </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOD -->
+    <section id="food">
+        <div class="container">
+            <div class="text-center mb-5" data-aos="fade-up">
+                <p class="section-label">Hương vị</p>
+                <h2 class="section-title">Ẩm thực đặc sắc</h2>
+                <div class="section-divider mx-auto"></div>
+                <p class="section-desc">Những món ăn khó quên chỉ có ở Huế</p>
+            </div>
+            <div class="food-grid" data-aos="fade-up" data-aos-delay="100">
+                <div class="food-card">
+                    <img src="img/bun.png" alt="Bánh tráng nướng" class="food-img" />
+                    <div class="food-info">
+                        <h4>Bún bò Huế</h4>
+                        <p>Món ăn không thể bỏ lỡ khi đến </p>
+                        <a href="z1.html">Next </a>
+                    </div>
+                </div>
+                <div class="food-card">
+                    <img src="img/hen.png" alt="Kem bơ" class="food-img" />
+                    <div class="food-info">
+                        <h4>Cơm hến </h4>
+                        <p>Sự hòa quyện của những gia vị độc đáo </p>
+                        <a href="z2.html">Next </a>
+                    </div>
+                </div>
+                <div class="food-card">
+                    <img src="img/nem.png" alt="Rau củ tươi" class="food-img" />
+                    <div class="food-info">
+                        <h4>Nem lụi Huế</h4>
+                        <p> Vua của các món ăn xế </p>
+                        <a href="z3.html">Next </a>
+                    </div>
+                </div>
+                <div class="food-card">
+                    <img src="img/loc.png" alt="Lẩu gà" class="food-img" />
+                    <div class="food-info">
+                        <h4>Bánh bột lọc Huế</h4>
+                        <p>  Viên ngọc trong vắt của Cố Đô  </p> 
+                        <a href="z5.html">Next </a>
+                    </div>
+                </div>
+                <div class="food-card">
+                    <img src="img/che.png" alt="Cà phê Đà Lạt" class="food-img" />
+                    <div class="food-info">
+                        <h4>Chè Huế</h4>
+                        <p> Độc lạ chè Huế - Heo quay nằm gọn trong lòng bột lọc </p>
+                        <a href="z4.html">Next </a>
+                    </div>
+                </div>
+                <div class="food-card">
+                    <img src="img/muoi.png" alt="Dâu tây" class="food-img" />
+                    <div class="food-info">
+                        <h4>Cà phê muối</h4>
+                        <p> Chút muối chút tình - Đậm vị cà phê</p>
+                        <a href="z6.html">Next </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ROMANTIC -->
+    <section id="romantic">
+        <div class="container">
+            <div class="text-center mb-5" data-aos="fade-up">
+                <p class="section-label">Văn Hoá</p>
+                <h2 class="section-title">Lễ hội đặc sắc</h2>
+                <div class="section-divider mx-auto"></div>
+                <p class="section-desc">Lễ Hội Đặc Sắc ở Huế thương</p>
+            </div>
+            <div class="romantic-grid" data-aos="fade-up" data-aos-delay="100">
+                <div class="romantic-card">
+                    <img src="img/fes.png"
+                        alt="Cà phê sân vườn" />
+                    
+                    <div class="romantic-info">
+                        <h4>Festival Huế</h4>
+                        <p> Hành trình trải nghiệm các văn hóa lịch sử </p>
+                        <a href="b1.html">Next </a>
+                    </div>
+                </div>
+                <div class="romantic-card">
+                    <img src="img/ngu2.png"
+                        alt="Nhà hàng lãng mạn" />
+                    <div class="romantic-info">
+                        <h4>Lễ hội Cầu Ngư</h4>
+                        <p> Tri ân biển cả - Vững chãi vươn khơi</p>
+                        <a href="b2.html">Next </a>
+                    </div>
+                </div>
+                <div class="romantic-card">
+                    <img src="img/ngu.png" alt="Vườn hoa" />
+                   
+                    <div class="romantic-info">
+                        <h4>Hội đua ghe Huế</h4>
+                        <p>Đạp gió rẽ sóng - vươn tới vinh quang</p>
+                        <a href="b3.html">Next </a>
+                    </div>
+                </div>
+                <div class="romantic-card">
+                    <img src="img/sinh.png"
+                        alt="Ngắm hoàng hôn" />
+            
+                    <div class="romantic-info">
+                        <h4>Hội vật làng Sình</h4>
+                        <p>Sức khỏe làng Sình - Tinh hoa võ Việt</p>
+                        <a href="b4.html">Next </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- VIDEO -->
+    <section id="video">
+        <div class="container">
+            <div class="text-center mb-5" data-aos="fade-up">
+                <p class="section-label">Trải nghiệm</p>
+                <h2 class="section-title" style="color:var(--cream)">Video giới thiệu</h2>
+                <div class="section-divider mx-auto"></div>
+            </div>
+            <div data-aos="zoom-in" data-aos-delay="100">
+                <div class="video-wrapper">
+                    <video width="640" height="360" controls>
+                        <source src="video/video.mp4" type="video/mp4">
+                        Trình duyệt của bạn không hỗ trợ phát video.
+                    </video>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section id="testimonials">
+        <div class="container">
+            <div class="text-center mb-5" data-aos="fade-up">
+                <p class="section-label">Cảm nhận</p>
+                <h2 class="section-title">Du khách nói gì</h2>
+                <div class="section-divider mx-auto"></div>
+            </div>
+            <div data-aos="fade-up" data-aos-delay="100">
+                <div class="testimonial-track" id="testimonialTrack">
+                    <div class="testimonial-card">
+                        <div class="stars">★★★★★</div>
+                        <p class="t-text">"Hue dep lam, co nhieu do an ngon. Toi rat thich Hue, sau nay chac chan se quay tro lai mot lan nua. I love Hue <3!!"</p>
+                        <div class="t-author">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/2025_Cristiano_Ronaldo_%28cropped%29.jpg/250px-2025_Cristiano_Ronaldo_%28cropped%29.jpg" class="t-avatar" alt="Nguyễn Thị Lan" />
+                            <div>
+                                <div class="t-name">Cristiano Ronaldo</div>
+                                <div class="t-loc">Hue · Tháng 3/2026</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="stars">★★★★★</div>
+                        <p class="t-text">"O Hue co nhieu ban fan de thuong qua. Minh da den tham Dai Noi Hue, minh dung do ngam mot luc lau va nghi ve thoi gian o day. Cam giac rat la nhung cung rat de chiu. Aaaaaa minh muon o lai Hue lau hon mot chut 😭😭😭"</p>
+                        <div class="t-author">
+                            <img src="https://media-cdn-v2.laodong.vn/Storage/NewsPortal/2022/11/12/1115845/Anh-Chup-Man-Hinh-20.png" class="t-avatar" alt="Trần Minh Hoàng" />
+                            <div>
+                                <div class="t-name">Jeon Jungkook</div>
+                                <div class="t-loc">Hue · Tháng 1/2026</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="stars">★★★★☆</div>
+                        <p class="t-text">"후에 는 아름다울 뿐만 아니라 형언할 수 없는 고요함을 지니고 있습니다. 잔잔하게 흐르는 향강 이나 추억이 깃든 옛 거리들, 모든 것이 느리게 흘러가는 듯한 느낌을 줍니다. 오래된 나무 문들을 지나거나 성벽 앞에 서 있으면 마치 전에 알지 못했던 역사의 한 조각을 다시 살아보는 듯한 기분이 들었습니다."</p>
+                        <div class="t-author">
+                            <img src="https://dep.com.vn/wp-content/uploads/2025/06/8.jpg" class="t-avatar" alt="Lê Thu Hà" />
+                            <div>
+                                <div class="t-name">Kim Jennie</div>
+                                <div class="t-loc">Huế · Tháng 4/2026</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="stars">★★★★★</div>
+                        <p class="t-text">"This place is really beautiful. As I walked through the ancient streets and admired the stunning architecture, I felt as though time itself slowed down. Every wall, every corner, tells a story, and I’m truly grateful to have witnessed such beauty. "</p>
+                        <div class="t-author">
+                            <img src="https://vcdn1-giaitri.vnecdn.net/2024/12/04/1580039832-1733282925-5682-1733282930.jpg?w=680&h=0&q=100&dpr=2&fit=crop&s=NdBhKafOA87-fppo9SaREQ" class="t-avatar" alt="Phạm Đức Anh" />
+                            <div>
+                                <div class="t-name">Beyoncé</div>
+                                <div class="t-loc">Hue · Tháng 11/2023</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-nav" id="tNav"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- NEWS -->
+    <section id="news">
+        <div class="container">
+            <div class="text-center mb-5" data-aos="fade-up">
+                <p class="section-label">Cập nhật</p>
+                <h2 class="section-title">Tin tức & Blog</h2>
+                <div class="section-divider mx-auto"></div>
+                <p class="section-desc">Những câu chuyện mới nhất về Huế</p>
+            </div>
+            <div class="news-grid" data-aos="fade-up" data-aos-delay="100">
+                <div class="news-card" onclick="openModal(0)">
+                    <img src="https://file3.qdnd.vn/data/images/0/2022/06/27/vuongthuy/anh_1.jpg?dpi=150&quality=100&w=870"
+                        class="news-thumb" alt="Lễ hội hoa" />
+                    <div class="news-body">
+                        <div class="news-date">15 tháng 3, 2026</div>
+                        <h3 class="news-title">Chợ Quê Ngày Hội 2026 – Đặc Sắc Văn Hóa Tại Cầu Ngói Thanh Tân Huế</h3>
+                        <p class="news-excerpt">Diễn ra từ ngày 10 - 20/1 tại điểm du lịch cộng đồng Cầu ngói Thanh Toàn...</p>
+                        <span class="news-read">Đọc tiếp <i class="fas fa-arrow-right"></i></span>
+                    </div>
+                </div>
+                <div class="news-card" onclick="openModal(1)">
+                    <img src="https://daivietourist.vn/wp-content/uploads/2025/04/suoi-voi-hue-4.jpg"
+                        class="news-thumb" alt="Cà phê Đà Lạt" />
+                    <div class="news-body">
+                        <div class="news-date">08 tháng 3, 2026</div>
+                        <h3 class="news-title">Top 10 Địa Điểm Tránh Nóng Mùa Hè Ở Huế 2026</h3>
+                        <p class="news-excerpt">Nếu bạn đang tìm kiếm những nơi lý tưởng để "trốn nóng" ở Huế, dưới đây là 10 địa điểm không thể bỏ qua...</p>
+                        <span class="news-read">Đọc tiếp <i class="fas fa-arrow-right"></i></span>
+                    </div>
+                </div>
+                <div class="news-card" onclick="openModal(2)">
+                    <img src="https://khamphahue.com.vn/Portals/0/Medias/Nam2025/T6/thumb_Khamphahue_Thanh-pho-xe-dap-Hue-GCOO.jpg"
+                        class="news-thumb" alt="Du lịch Đà Lạt" />
+                    <div class="news-body">
+                        <div class="news-date">01 tháng 3, 2026</div>
+                        <h3 class="news-title">Hành trình khám phá Huế trong 4 ngày 3 đêm</h3>
+                        <p class="news-excerpt">Muốn “trốn” khỏi sự náo nhiệt và tìm một nơi vừa đẹp vừa chill? Huế là câu trả lời mà cậu đang tìm kiếm...</p>
+                        <span class="news-read">Đọc tiếp <i class="fas fa-arrow-right"></i></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- BOTTOM: REVIEWS + MAP -->
+    <section id="bottom">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-5" data-aos="fade-right">
+                    <p class="section-label" style="color:var(--gold)">Mới nhất</p>
+                    <h2 class="section-title" style="color:var(--cream);font-size:2rem">Đánh giá gần đây</h2>
+                    <div class="section-divider"></div>
+                    <div class="reviews-list">
+                        <div class="review-item">
+                            <div class="stars">★★★★★</div>
+                            <p>"HUẾ luôn là chốn bình yên trong tâm hồn tôi mỗi khi muốn thoát khỏi ồn ào thành phố."
+                            </p>
+                            <div class="review-author">— Bảo Châu</div>
+                        </div>
+                        <div class="review-item">
+                            <div class="stars">★★★★★</div>
+                            <p>"Bún Bò và  – hai thứ nhất định phải trải nghiệm khi đến đây!"</p>
+                            <div class="review-author">— Văn Duy</div>
+                        </div>
+                        <div class="review-item">
+                            <div class="stars">★★★★☆</div>
+                            <p>"Khí hậu mát mẻ, con người thân thiện. Huế xứng đáng là thành phố đáng sống nhất Việt
+                                Nam."</p>
+                            <div class="review-author">— Ngọc Danh</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7" data-aos="fade-left">
+                    <p class="section-label" style="color:var(--gold)">Vị trí</p>
+                    <h2 class="section-title" style="color:var(--cream);font-size:2rem">Tìm Huế trên bản đồ</h2>
+                    <div class="section-divider"></div>
+                    <div class="map-wrapper">
+                        <iframe
+                            src="https://www.google.com/maps?q=16.4637,107.5908&hl=vi&z=12&output=embed"
+                            width="100%" height="380" style="border:0;" allowfullscreen loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade" title="Bản đồ Đà Lạt">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <div class="footer-brand">Thành Phố <span> Huế</span></div>
+                    <p class="footer-desc">Website du lịch Huế – mang đến trải nghiệm khám phá thành phố ngàn hoa,
+                        yên bình và tình yêu lãng mạn.</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/huethuong.music.vn" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/bts.bighitofficial/" class="social-icon"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.youtube.com/channel/UCLkAepWjdylmXSltofFvsYQ" class="social-icon"><i class="fab fa-youtube"></i></a>
+                        <a href="https://www.tiktok.com/@bts_official_bighit" class="social-icon"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-6">
+                    <div class="footer-heading">Khám phá</div>
+                    <ul class="footer-links">
+                        <li><a href="#about">Giới thiệu</a></li>
+                        <li><a href="#places">Địa điểm</a></li>
+                        <li><a href="#food">Ẩm thực</a></li>
+                        <li><a href="#romantic">Hẹn hò</a></li>
+                        <li><a href="#video">Video</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-6">
+                    <div class="footer-heading">Thông tin</div>
+                    <ul class="footer-links">
+                        <li><a href="#news">Tin tức</a></li>
+                        <li><a href="#testimonials">Đánh giá</a></li>
+                        <li><a href="#bottom">Liên hệ</a></li>
+                        <li><a href="#">Chính sách BM</a></li>
+                        <li><a href="#">Điều khoản</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4">
+                    <div class="footer-heading">Liên hệ</div>
+                    <ul class="footer-links" style="gap:14px">
+                        <li><i class="fas fa-map-marker-alt me-2" style="color:var(--gold)"></i> Nhóm 1, TDP khắp nơi ,
+                           Huế</li>
+                        <li><i class="fas fa-phone me-2" style="color:var(--gold)"></i> +84 394 479 4645</li>
+                        <li><i class="fas fa-envelope me-2" style="color:var(--gold)"></i> nguyenxuannhat@-dulich.vn</li>
+                        <li><i class="fas fa-clock me-2" style="color:var(--gold)"></i> 7:00 – 22:00 hàng ngày</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <span>© 2026 Huế Tourism. All rights reserved.</span>
+                <span>Được xây dựng với <i class="fas fa-heart" style="color:var(--gold)"></i> tại Huế</span>
+            </div>
+        </div>
+    </footer>
+
+    <!-- NEWS MODAL -->
+    <div class="news-modal-overlay" id="newsModal" onclick="closeModalOutside(event)">
+        <div class="news-modal" id="modalContent">
+            <button class="modal-close" onclick="closeModal()"><i class="fas fa-times"></i></button>
+            <img id="modalImg" src="" alt="" class="modal-img" />
+            <div class="modal-date" id="modalDate"></div>
+            <h2 class="modal-title" id="modalTitle"></h2>
+            <div class="modal-body" id="modalBody"></div>
+        </div>
+    </div>
+
+    <!-- SCROLL TO TOP -->
+    <button id="scrollTop" onclick="scrollToTop()">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
